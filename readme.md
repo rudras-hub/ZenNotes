@@ -1,0 +1,1 @@
+Minimalistic, clutter-free note taking app.

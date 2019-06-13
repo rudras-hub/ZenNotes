@@ -1,0 +1,22 @@
+{
+  "name": "zennotes",
+  "version": "1.0.0",
+  "description": "Desktop app for taking notes.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudras-hub/ZenNotes.git"
+  },
+  "author": "suchi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rudras-hub/ZenNotes/issues"
+  },
+  "homepage": "https://github.com/rudras-hub/ZenNotes#readme",
+  "dependencies": {
+    "electron": "^5.0.3"
+  }
+}
