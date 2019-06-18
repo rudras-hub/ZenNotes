@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.format-options {
+    margin: 20px auto;
+    padding: 15px, 20px;
+    width: 400px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Playfair+Display+SC;
+}
+
+.option {
+    margin: 0, 10px;
+    border: 4px, solid grey;
+    border-radius: 50%;
+    padding: 10px;
+    display: inline-block;
+}
