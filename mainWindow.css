@@ -8,12 +8,13 @@
 .format-options{
     margin: 20px auto;
     padding: 15px, 20px;
-    width: 1000px;
+    width: 100%;
     text-align: center;
     font-size: 25px;
     font-family: Playfair+Display+SC, serif;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .option{
