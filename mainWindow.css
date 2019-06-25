@@ -10,11 +10,10 @@
     padding: 15px, 20px;
     width: 100%;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Playfair+Display+SC, serif;
     display: flex;
     justify-content: space-between;
-    position: relative;
 }
 
 .option{
@@ -22,7 +21,7 @@
     border: solid white;
     border-width: 0, 2px;
     border-radius: 50%;
-    padding: 10px;
+    padding: 5px;
     display: inline-block;
     width : 100px;
     transition: all 0.3s ease;
@@ -43,4 +42,20 @@
 
 #underline {
     text-decoration: underline;
+}
+
+.textInput{
+    display: flex;
+    overflow: scroll;
+}
+
+.textInput textarea{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-style: none;
+    border-color: transparent;
+    resize: none;
+    width: 100vw;
+    height: 100vh;
 }
