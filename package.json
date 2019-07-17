@@ -1,22 +1,52 @@
 {
-  "name": "zennotes",
-  "version": "1.0.0",
-  "description": "Desktop app for taking notes.",
-  "main": "main.js",
+  "name": "zen-notes",
+  "version": "0.1.0",
+  "author": "suchi",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "electron-is-dev": "^1.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1"
+  },
+  "main": "src/main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "rescripts start",
+    "build": "rescripts build",
+    "test": "rescripts test",
+    "eject": "react-scripts eject",
+    "electron-dev": "concurrently \"BROWSER=none yarn start\" \"wait-on http://localhost:3000 && electron .\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@rescripts/cli": "^0.0.11",
+    "@rescripts/rescript-env": "^0.0.10",
+    "concurrently": "^4.1.1",
+    "electron": "^5.0.7",
+    "electron-builder": "^21.0.15",
+    "wait-on": "^3.3.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rudras-hub/ZenNotes.git"
   },
-  "author": "suchi",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/rudras-hub/ZenNotes/issues"
   },
-  "homepage": "https://github.com/rudras-hub/ZenNotes#readme",
-  "dependencies": {
-    "electron": "^5.0.3"
-  }
+  "homepage": "https://github.com/rudras-hub/ZenNotes#readme"
 }
