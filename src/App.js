@@ -5,8 +5,12 @@ import './App.css';
 import { className } from 'postcss-selector-parser';
 
 class App extends Component{
-  render(){
-    React.createElement("div",className = 'App', React.createElement('ZenEditor'))
+  render() {
+    return(
+      <div className="App">
+        <ZenEditor/>
+      </div>
+    );
   }
 }
 
